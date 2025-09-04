@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1025957351156065938
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2456461562786874908}
+  - component: {fileID: 3419229159953516164}
+  - component: {fileID: 501077125941606617}
+  m_Layer: 0
+  m_Name: Board
+  m_TagString: Untagged
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2456461562786874908
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1025957351156065938}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.5, y: 4, z: 90}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3419229159953516164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1025957351156065938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1baf387a9ac544b659e862d30806266d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  width: 9
+  height: 10
+  offset: 20
+  currentState: 1
+  boardLayout: []
+  cubes:
+  - {fileID: 4425275638834073110, guid: 7efcbc7f10a144d6c896a2ac3183af75, type: 3}
+  - {fileID: 5172952205693315348, guid: 9cb585ee61336412187287f8a621b56d, type: 3}
+  - {fileID: 738595872896976405, guid: 94843463f87514b3f9e999770a128347, type: 3}
+  - {fileID: 7754097381068030996, guid: 9b553eca042864a5c80ffa4fb59fb57b, type: 3}
+  destroyEffects:
+  - {fileID: 5106703592249509221, guid: c8684ee7706c74cb4a4dda9148ded428, type: 3}
+  - {fileID: 2630868003316906360, guid: 71082fe9975e2411f95459842f937731, type: 3}
+  - {fileID: 6853197443962071315, guid: ebbf499af91744ea39e0f4101b871157, type: 3}
+  - {fileID: 5058709245668100265, guid: 400c1716a34394264933b46c214378fa, type: 3}
+  currentCube: {fileID: 0}
+  boxTilePrefab: {fileID: 2134621667881930518, guid: b02de17ca773749cf8671ed9870526ff, type: 3}
+  stoneTilePrefab: {fileID: 8997822585919500497, guid: 7a0e07450842d49d98b6bb963a1caacc, type: 3}
+  vaseTilePrefab: {fileID: 4435677533667931395, guid: fe8a06734c3d746c8840c84e23eb2cef, type: 3}
+--- !u!114 &501077125941606617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1025957351156065938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa505855abd40411aafb75a0e1df21df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hintTime: 0
+  BlueHintPrefab: {fileID: 5695475750945049629, guid: 38ae202c430064311956e7b54cbac5cd, type: 3}
+  RedHintPrefab: {fileID: 3215189884526798698, guid: 346f3d61078684f53806720bdf64a33a, type: 3}
+  GreenHintPrefab: {fileID: 3756745670611307776, guid: 45b8752313386412caf752e4267987c4, type: 3}
+  YellowHintPrefab: {fileID: 7319387339190690956, guid: e60751d7efead40268dd04414c243066, type: 3}
+  hintParent: {fileID: 0}

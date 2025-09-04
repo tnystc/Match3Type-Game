@@ -1,0 +1,54 @@
+# ============================
+# Unity .gitignore
+# ============================
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
+
+# User-specific
+.vscode/
+.idea/
+*.user
+*.userprefs
+
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Oo]bj/
+[Mm]emoryCaptures/
+UserSettings/
+
+# Auto-generated project files
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+
+# Crash reports
+*.stackdump
+
+# Builds
+*.apk
+*.aab
+*.unitypackage
+*.app
+*.exe
+*.xcodeproj
+*.xcworkspace
+
+# Asset Store tools
+Assets/AssetStoreTools*
+
+# Rider IDE
+*.sln.iml
+
