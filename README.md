@@ -1,6 +1,6 @@
 # Match3Type
 
-A **Match-3 style prototype game**, developed as part of the learning process in Unity.  
+A **Match-3 style game**, developed as part of the learning process in Unity.  
 Since this was a beginning project, it is not well designed and lacks proper OOP practices and optimizations (e.g., inheritance, object pooling). I might update it in the future.
 
 ## Gameplay
